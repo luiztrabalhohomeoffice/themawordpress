@@ -1,14 +1,14 @@
 <?php get_header(); ?>
     <div class="content-area">
         <main>
-            <section class="slide"></section>
-            <section class="services"></section>
+            <section class="slide">slide</section>
+            <section class="services">serviços</section>
             <section class="middle-aarea">
-                <aside class="sidebar"></aside>
-                <div class="news"></div>
+                <aside class="sidebar">barra lateral</aside>
+                <div class="news">notícias</div>
 
             </section>
-            <section class="map"></section>
+            <section class="map">Mapa</section>
         </main>   
 
     </div>
