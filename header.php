@@ -21,7 +21,20 @@
             </div>
        </section> 
         <section class="menu-area">
-            <section class="logo">logo</section>
-            <nav class="menu">menu</nav>
+            <div class="container">
+                <div class="row">
+                    <section class="logo col-md-2 col-12 text-center">logo</section>
+                    <nav class="menu col-md-10 text-right">
+                        <?php 
+                        wp_nav_menu(
+                            array(
+                                'theme_location' => 'my_main_menu'
+                                    )
+                         ); 
+                                ?>
+                    </nav>
+                </div>
+            </div>
+     
         </section>  
     </header>   
