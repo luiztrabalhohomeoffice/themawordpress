@@ -8,6 +8,7 @@
                 <div class="news">notícias</div>
 
             </section>
+            
             <section class="map">Mapa</section>
         </main>   
 
